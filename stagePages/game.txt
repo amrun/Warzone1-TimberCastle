@@ -1,0 +1,20 @@
+<div class="gameBox">
+
+<h1>Warzone 1 - Timber Castle</h1>
+<div id="messages" class="messages"><!-- --></div>
+<div class="game">
+	###MAP###
+	<form method="post" enctype="multipart/form-data" name="newGameForm" id="newGameForm" action="TODO">
+		<fieldset>
+		<legend>Funktionen</legend>
+			<div class="formElement">
+				<div class="formField">
+					<input type="button" id="sendPlayerMoveButton" class="btn" value="Spielzug senden" size="40" name="play" id="btnPlay" onclick="warzoneFunc.sendPlayerMove(); return false;" />
+					<input type="button" class="btn" value="Reset" size="40" name="reset" id="btnReset" onclick="location.reload(); return false;" />
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</div>
+
+</div>

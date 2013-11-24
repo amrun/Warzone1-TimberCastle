@@ -1,0 +1,92 @@
+<div class="welcomeBox">
+<div class="welcomeInnerBoxCentered">
+
+<div class="textCenter"><img class="logo" src="./graphics/logo.jpg" /></div>
+
+<div class="welcomeFormContainer">
+<div class="innerWelcomeFormContainer">
+<div class="newGame">
+
+<div class="formPicture">
+	<img src="./graphics/swordsAndShield.jpg" />
+</div>
+
+<div class="form">
+	<form method="post" enctype="multipart/form-data" name="newGameForm" id="newGameForm" action="?stage=confirm">
+		<fieldset>
+			<legend>Neues Spiel</legend>
+			
+			<div class="formElement textElement Vorname">
+				<div class="formLabel">
+					<span class="requiredElement"><label for="emailP1">Deine Email-Adresse:</label><span>*</span></span>
+				</div>
+	
+				<div class="formField">
+					<input type="text" class="text" value="E-Mail" size="40" name="txtEmailP1" id="emailP1" onclick="this.value=''"/>
+				</div>
+	
+				<div class="formClear"><!-- --></div>
+			</div>
+			
+			<div class="formElement textElement Vorname">
+				<div class="formLabel">
+					<span class="requiredElement"><label for="emailP2">E-Mail Adresse deines Gegners:</label><span>*</span></span>
+				</div>
+	
+				<div class="formField">
+					<input type="text" class="text" value="E-Mail" size="40" name="txtEmailP2" id="emailP2" onclick="this.value=''"/>
+				</div>
+	
+				<div class="formClear"><!-- --></div>
+			</div>
+			
+			<div class="formField">
+				<input id="newGameForm" class="button" type="submit" value="Gegner einladen" name="formtype_mail"/>
+			</div>
+		</fieldset>
+	</form>
+	</div>
+</div>
+
+
+<div class="clear"><!-- --></div>
+<hr />
+<div class="clear"><!-- --></div>
+
+
+<div class="continueGame">
+	
+<div class="formPicture">
+	<img src="./graphics/swordsAndShieldBloody.jpg" />
+</div>
+
+<div class="form">
+	<form method="get" enctype="multipart/form-data" name="continueGameForm" id="continueGameForm" action="?stage=game">
+		<fieldset>
+			<legend>Bestehendes Spiel</legend>
+	
+			<div class="formElement textElement Vorname">
+				<div class="formLabel">
+					<span class="requiredElement"><label for="playerHash">Dein Hash:</label><span>*</span></span>
+				</div>
+	
+				<div class="formField">
+					<input type="text" class="text" value="playerHash" size="40" name="playerHash" id="playerHash" onclick="this.value=''" />
+				</div>
+	
+				<div class="formClear"><!-- --></div>
+			</div>
+			
+			<div class="formField">
+				<input id="newGameForm" class="button" type="submit" value="Weiterspielen" name="formtype_mail" />�
+				<input id="stage" name="stage" type="hidden" value="game" />
+			</div>
+			
+		</fieldset>
+	</form>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>

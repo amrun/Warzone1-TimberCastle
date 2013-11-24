@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<pawns>
+		<pawn>
+			<name>Castle</name>
+			<hitpoints>200</hitpoints>
+
+			<walkRange>0</walkRange>
+			<attackRange>0</attackRange>
+
+			<bashArmor>0</bashArmor>
+			<bashAttack>0</bashAttack>
+
+			<pierceArmor>10</pierceArmor>
+			<pierceAttack>0</pierceAttack>
+		</pawn>
+		<pawn>
+			<name>Knight</name>
+			<hitpoints>100</hitpoints>
+
+			<walkRange>6</walkRange>
+			<attackRange>2</attackRange>
+
+			<bashArmor>6</bashArmor>
+			<bashAttack>10</bashAttack>
+
+			<pierceArmor>10</pierceArmor>
+			<pierceAttack>4</pierceAttack>
+		</pawn>
+		<pawn>
+			<name>Swordsman</name>
+			<hitpoints>35</hitpoints>
+
+			<walkRange>2</walkRange>
+			<attackRange>1</attackRange>
+
+			<bashArmor>8</bashArmor>
+			<bashAttack>6</bashAttack>
+
+			<pierceArmor>8</pierceArmor>
+			<pierceAttack>2</pierceAttack>
+		</pawn>
+		<pawn>
+			<name>Halbherdier</name>
+			<hitpoints>25</hitpoints>
+
+			<walkRange>4</walkRange>
+			<attackRange>2</attackRange>
+
+			<bashArmor>4</bashArmor>
+			<bashAttack>4</bashAttack>
+
+			<pierceArmor>4</pierceArmor>
+			<pierceAttack>12</pierceAttack>
+		</pawn>
+		<pawn>
+			<name>Archer</name>
+			<hitpoints>25</hitpoints>
+
+			<walkRange>4</walkRange>
+			<attackRange>10</attackRange>
+
+			<bashArmor>2</bashArmor>
+			<bashAttack>1</bashAttack>
+
+			<pierceArmor>6</pierceArmor>
+			<pierceAttack>6</pierceAttack>
+		</pawn>
+	</pawns>
+</root>
