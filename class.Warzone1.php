@@ -142,7 +142,7 @@ class Warzone1 {
 				if( $tmpGame->getTurn() == $tmpPlayer->getId() ) {
 					$content = str_replace( '###MAP###', $this->game->renderBaseGame( $_GET['playerHash'] ), $content );
 				} else {
-					$content = str_replace( '###MAP###', 'Sie sind noch nicht am Zug!', $content );
+					$content = str_replace( '###MAP###', '<div class="nyt">Sie sind noch nicht am Zug!<br />Die Seite wird automatisch neu geladen, bis Ihre Gegner fertig sind.</div>', $content );
 					$autoreload = 'setTimeout ( "location.reload()", 5000 );';
 				}
 			} else {

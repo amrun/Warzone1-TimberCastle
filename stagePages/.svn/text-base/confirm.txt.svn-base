@@ -1,0 +1,21 @@
+<h1>Warzone 1 - Timber Castle</h1>
+
+<div class="confirm">
+	<img src='graphics/accept.png' class='notifyIcon' border='0' />&nbsp;Das Spiel wurde erstellt.<br />
+	<img src='graphics/accept.png' class='notifyIcon' border='0' />&nbsp;Der Gegenspieler wurde eingeladen.<br />
+	<br />
+	<br />
+	Klicken Sie auf folgenden Link, um auf das neu erstellte Spiel zu gelangen.<br />
+	<a href='?stage=game&playerHash=###PLAYERHASH###'>Go</a>
+	
+	<br />
+	<br />
+	<br />
+	Mail Informationen:
+	<pre>
+		mail['to']:        ###MAILTO###
+		mail['subject']:   ###MAILSUBJECT###
+		mail['body']:	   ###MAILBODY###
+		mail['options']:   ###MAILOPTIONS###
+	</pre>
+</div>
